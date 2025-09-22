@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  },
+  "name": "devhouse",
+  "version": "1.0.0",
+  "description": "Criando projeto DevHouse com Tailwind",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "devhouse": "npx @tailwindcss/cli -i ./style/style.css -o ./style/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devjuniordepaula/devHouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devjuniordepaula/devHouse/issues"
+  },
+  "homepage": "https://github.com/devjuniordepaula/devHouse#readme"
+}
